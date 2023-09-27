@@ -1,0 +1,6 @@
+- 👋 Hi, I’m @GiftSibiya
+- Front end Development 🧑🏾‍💻
+- Graphic Designer 🎨
+- Currently based in South Africa 🇿🇦
+- Coding skills [ "HTML", "CSS", "JavaScript", "nodeJS", "C#"]
+- graphic designing in ["Adobe Illustrator", "Adobe XD", "Figma", "Photoshop"]
