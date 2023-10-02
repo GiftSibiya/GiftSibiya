@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @GiftSibiya
+- Hello World, I’m @GiftSibiya
 - Front end Development 🧑🏾‍💻
 - Graphic Designer 🎨
 - Currently based in South Africa 🇿🇦
