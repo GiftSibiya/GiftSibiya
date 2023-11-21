@@ -1,6 +1,6 @@
 - Hello World, I’m @GiftSibiya
-- Front end Development 🧑🏾‍💻
+- Flutter Software Developer 🧑🏾‍💻
 - Graphic Designer 🎨
 - Currently based in South Africa 🇿🇦
-- Coding skills [ "HTML", "CSS", "JavaScript", "nodeJS", "C#"]
+- Coding skills [ "HTML", "CSS", "JavaScript", "nodeJS", "C#", dart]
 - graphic designing in ["Adobe Illustrator", "Adobe XD", "Figma", "Photoshop"]
