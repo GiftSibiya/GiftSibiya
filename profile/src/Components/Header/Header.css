@@ -3,6 +3,48 @@
 }
 .headerSection {
   width: 100vw;
-  height: 200px;
+  height: 430px;
   background-color: #fff8dd;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2px 30px;
+  height: 40px;
+  width: 90%;
+}
+
+.navbar--links {
+  display: flex;
+  width: 300px;
+  justify-content: space-around;
+}
+.navbar--links--item {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.navbar--links--item__touch {
+  background-color: orange;
+  border-radius: 20px;
+  color: white;
+}
+.hero {
+  display: flex;
+  justify-content: space-around;
+}
+.hero--text {
+  padding: 20px;
+  font-size: 2rem;
+}
+.hero--text__name {
+}
+.profileCard {
+  margin: 60px 20px;
+}
+.bioText {
+  width: 350px;
+  margin-top: 40px;
+  font-size: 20px;
 }
