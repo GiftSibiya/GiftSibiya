@@ -4,8 +4,21 @@ import React from "react";
 
 // File Imports //
 import "./Header.css";
-import ProfileCard from "../profileCard/ProfileCard";
 //*//
+
+// Asset Imports //
+import ProfileCard from "../profileCard/ProfileCard";
+import html from "../../assets/icons/HTML.png";
+import css from "../../assets/icons/Css.png";
+import javaScript from "../../assets/icons/JS.png";
+import react from "../../assets/icons/React.png";
+import node from "../../assets/icons/Node.png";
+import csharp from "../../assets/icons/Csharp.png";
+import dart from "../../assets/icons/Dart.png";
+import github from "../../assets/icons/github.png";
+import linkedIn from "../../assets/icons/linkedIn.png";
+
+//--//
 
 function Header() {
   return (
@@ -31,11 +44,37 @@ function Header() {
             <h2>Hello World</h2>
             <h2>I'M GIFT</h2>
             <p className="bioText">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
-              veritatis voluptates sit non fugit temporibus delectus quos quis
-              hic architecto assumenda sint, suscipit neque deleniti tempora
-              quibusdam adipisci,
+              I am a full stack web & mobile developer based in Midrand, South
+              Africa with extensive experience working and adapting to front and
+              backend tech stacks from javascript to ASP.NET CRUD applications.
             </p>
+            <div className="stacks">
+              <div className="techIcons">
+                <img className="techIconList" src={html} alt="" />
+                <img className="techIconList" src={css} alt="" />
+                <img className="techIconList" src={javaScript} alt="" />
+                <img className="techIconList" src={react} alt="" />
+                <img className="techIconList" src={node} alt="" />
+                <img className="techIconList" src={csharp} alt="" />
+                <img className="dart techIconList " src={dart} alt="" />
+              </div>
+              <div className="socialLinks">
+                <a
+                  href="https://github.com/GiftSibiya"
+                  className="socialButton socialButton--git"
+                >
+                  <img className="github__icon" src={github} alt="" />
+                  <p className="github__text">github/GiftSibiya</p>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/gift-sibiya-38134a21b/"
+                  className="socialButton socialButton--link"
+                >
+                  <img className="linkedIn__icon " src={linkedIn} alt="" />
+                  <p className="linkedIn__text">linkedIn/GiftSibiya</p>
+                </a>
+              </div>
+            </div>
           </div>
           <div className="profileCard">
             <ProfileCard />

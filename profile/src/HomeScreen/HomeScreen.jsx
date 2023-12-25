@@ -15,6 +15,7 @@ function HomeScreen() {
       <Header>
         <Header />
       </Header>
+      <section></section>
     </>
   );
 }
