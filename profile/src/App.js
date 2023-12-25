@@ -1,9 +1,17 @@
+/// Imports
+
+import { Link } from "react-router-dom";
+
+//
+
+// Page Imports //
+
+import HomeScreen from "./HomeScreen/HomeScreen";
+
+//
+
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">App has begun</header>
-    </div>
-  );
+  return <HomeScreen />;
 }
 
 export default App;

@@ -1,0 +1,112 @@
+* {
+  margin: 0px;
+}
+.headerSection {
+  width: 100vw;
+  height: 430px;
+  background-color: #fff8dd;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2px 30px;
+  height: 40px;
+  width: 90%;
+}
+
+.navbar--links {
+  display: flex;
+  width: 300px;
+  justify-content: space-around;
+}
+.navbar--links--item {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.navbar--links--item__touch {
+  background-color: orange;
+  border-radius: 20px;
+  color: white;
+}
+.hero {
+  display: flex;
+  justify-content: space-around;
+}
+.hero--text {
+  padding: 20px;
+  font-size: 2rem;
+}
+.hero--text__name {
+}
+.profileCard {
+  margin: 60px 20px;
+}
+.bioText {
+  width: 350px;
+  margin-top: 40px;
+  font-size: 20px;
+}
+
+.techIcons {
+  width: 450px;
+  justify-content: space-between;
+  margin: 10px 0px;
+  display: flex;
+}
+.techIconList {
+  object-fit: contain;
+  max-width: 60px;
+}
+.dart {
+  width: 40px;
+}
+
+.socialLinks {
+  display: flex;
+  flex-direction: row;
+}
+
+.socialButton {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  width: 200px;
+  margin: 0px 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  text-decoration: none;
+}
+
+.github__icon {
+  margin: 0px 10px;
+  width: 30px;
+}
+.linkedIn__icon {
+  margin: 0px 10px;
+  width: 30px;
+}
+.socialButton--link {
+  background-color: white;
+  border: 2px solid rgb(81, 128, 203);
+}
+
+.socialButton--git {
+  background-color: rgb(31, 31, 31);
+}
+.github__text {
+  color: white;
+  font-size: 18px;
+}
+.linkedIn__text {
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+}
+.stacks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
