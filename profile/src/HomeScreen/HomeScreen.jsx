@@ -4,7 +4,11 @@ import React from "react";
 //**//
 
 // Components Imports //
+import "./HomeScreen.css";
 import Header from "../Components/Header/Header";
+import Middle from "../Components/Middle/Middle";
+import Projects from "../Components/Projects/Projects";
+import Footer from "../Components/Footer/Footer";
 
 //**//
 
@@ -12,10 +16,16 @@ import Header from "../Components/Header/Header";
 function HomeScreen() {
   return (
     <>
-      <Header>
+      <header className="mainHeader">
         <Header />
-      </Header>
-      <section></section>
+      </header>
+      <section className="mainSection">
+        <Middle />
+        <Projects />
+      </section>
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 }
