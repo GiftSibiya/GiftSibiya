@@ -8,6 +8,7 @@ import "./HomeScreen.css";
 import Header from "../Components/Header/Header";
 import Middle from "../Components/Middle/Middle";
 import Projects from "../Components/Projects/Projects";
+import Footer from "../Components/Footer/Footer";
 
 //**//
 
@@ -22,6 +23,9 @@ function HomeScreen() {
         <Middle />
         <Projects />
       </section>
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 }

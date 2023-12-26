@@ -3,17 +3,18 @@
 .cardContainer {
   height: 250px;
   margin: 40px 0px;
-  border: 2px solid purple;
 }
+
 .projectCard {
   display: flex;
   justify-content: space-around;
   height: 250px;
+  border-bottom: 1px solid rgb(198, 198, 198);
 }
+
 .projectCard__pic {
   height: 250px;
   width: 35vw;
-  border: 2px solid red;
 }
 .projectCard__info {
   display: flex;

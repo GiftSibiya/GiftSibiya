@@ -2,11 +2,12 @@
 }
 :root {
   --midRadius: 20px;
+  --backgroundGreen: #67bcaa;
 }
 .midSection {
   display: flex;
   height: 80vh;
-  background-color: rgb(103, 188, 170);
+  background-color: var(--backgroundGreen);
 }
 .experience {
   position: relative;
