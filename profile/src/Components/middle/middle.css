@@ -1,0 +1,46 @@
+* {
+}
+:root {
+  --midRadius: 20px;
+}
+.midSection {
+  display: flex;
+  height: 80vh;
+  background-color: rgb(103, 188, 170);
+}
+.experience {
+  position: relative;
+  top: 50px;
+  left: 10px;
+  width: 45vw;
+  height: 380px;
+  background-color: var(--backgroundBeige);
+  border: 2px solid white;
+  border-radius: var(--midRadius);
+}
+.rightSkills {
+  display: flex;
+  flex-direction: column;
+  margin: 70px 20px;
+  width: 45vw;
+  border-radius: var(--midRadius);
+}
+
+.education {
+  top: 50px;
+  left: 30px;
+  width: 45vw;
+  height: 100px;
+  margin-bottom: 30px;
+  border-radius: var(--midRadius);
+
+  background-color: white;
+}
+.skills {
+  top: 200px;
+  left: 30px;
+  width: 45vw;
+  height: 300px;
+  background-color: var(--backgroundBlue);
+  border-radius: var(--midRadius);
+}

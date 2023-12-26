@@ -1,0 +1,10 @@
+* {
+}
+.projects {
+  background-color: var(--backgroundBeige);
+  height: 90vh;
+}
+.projects__title {
+  font-size: 50px;
+  text-align: center;
+}
