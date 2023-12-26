@@ -15,7 +15,11 @@ function Projects() {
   return (
     <section className="projects">
       <h2 className="projects__title">Projects</h2>
-      <ProjectCard />
+      <ProjectCard
+        title="FrontSeat"
+        description="Mobile Taxi Maths calculator"
+        code="52"
+      />
     </section>
   );
 }
