@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 // Page Imports //
 
-import HomeScreen from "./HomeScreen/HomeScreen";
+import HomeScreen from "./HomeScreen";
 
 //
 
