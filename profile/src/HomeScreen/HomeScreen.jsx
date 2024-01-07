@@ -6,7 +6,7 @@ import React from "react";
 // Components Imports //
 import "./HomeScreen.css";
 import Header from "../Components/Header/Header";
-import Middle from "../Components/Middle/Middle";
+import Middle from "../Components/middle/Middle";
 import Projects from "../Components/Projects/Projects";
 import Footer from "../Components/Footer/Footer";
 

@@ -48,6 +48,7 @@ function Header() {
               Africa with extensive experience working and adapting to front and
               backend tech stacks from javascript to ASP.NET CRUD applications.
             </p>
+            <p className="text-yellow-500"> Hey there</p>
             <div className="stacks">
               <div className="techIcons">
                 <img className="techIconList" src={html} alt="" />
