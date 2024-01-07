@@ -4,9 +4,9 @@ import React from "react";
 //**//
 // Components Imports //
 import Header from "./Components/Header";
-import Middle from "./Components/middle/Middle";
+import Middle from "./Components/Middle";
 import Projects from "./Components/Projects/Projects";
-import Footer from "./Components/Footer/Footer";
+import Footer from "./Components/Footer";
 
 //**//
 
@@ -14,10 +14,10 @@ import Footer from "./Components/Footer/Footer";
 function HomeScreen() {
   return (
     <>
-      <header className="mainHeader">
+      <header className="w-screen">
         <Header />
       </header>
-      <section className="mainSection">
+      <section className=" ">
         <Middle />
         <Projects />
       </section>
