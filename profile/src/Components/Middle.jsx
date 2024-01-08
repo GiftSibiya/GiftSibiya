@@ -11,21 +11,113 @@ import unity from "../assets/skillIcons/unity.png";
 import vs from "../assets/skillIcons/vs.png";
 import vscode from "../assets/skillIcons/vscode.png";
 import xd from "../assets/skillIcons/xd.png";
+import coder from "../assets/skillIcons/programmer.png";
+import warning from "../assets/skillIcons/warning.png";
 //--//
 function Middle() {
   return (
-    <section className="flex justify-between my-[20] h-[150vh] bg-[#67bcaa]">
-      <div className="relative top-[120px] left-[10px] w-[45vw] h-[380px] rounded-[20px] border-white  bg-[#fff8dd] ">
-        <h3 className="font-bold text-[2rem] text-center mb-3">EXPERIENCE</h3>
-        <div className="flex justify-between border-2 h-[120px] border-black">
-          <div className="border-2 h-full border-black w-[12vw]"></div>
-          <div className="flex flex-col border-2 h-full border-black w-[30vw]">
-            <div className="text-center"> Company</div>
-            <div className="text-center"> Description</div>
+    <section className="flex justify-between my-[20] h-[190vh] bg-[#67bcaa]">
+      {/* Experience */}
+
+      <div className=" flex flex-col border-2 border-black relative top-[120px] left-[10px] w-[45vw] h-[850px] rounded-[20px] border-whit  bg-[#fff8dd] ">
+        <div className="">
+          <h3 className="font-bold text-[2rem] text-center mb-3">EXPERIENCE</h3>
+          <div className="flex justify-around h-fit ">
+            {/* Year and Icon */}
+
+            <div className="flex flex-col items-center justify-around h-full w-[12vw]">
+              <img src={warning} alt="null" className="size-[80px]"></img>
+              <p className="text-[20px] font-bold">2021-2023</p>
+            </div>
+            {/* Company And Description */}
+            <div className="flex flex-col h-full  w-[30vw]">
+              <div className="text-center text-2xl font-bold">
+                {" "}
+                Senior BMS & IT Technician
+              </div>
+              <span className="text-center font-bold">
+                {" "}
+                Micropower Modulek (PTY)LTD
+              </span>
+              <div className="text-md">
+                <ul className="list-disc pl-4">
+                  <li>Building high current mining feeder controller units.</li>
+                  <li>
+                    Using BMS, Modbus, and BACnet for plant monitoring sites via
+                    the Tridium workstation integration.
+                  </li>
+                  <li>
+                    Solar Panel, Home battery backup power units, and house
+                    wiring.
+                  </li>
+                  <li>
+                    Soldering for in-house custom circuit boards and components.
+                  </li>
+                  <li>Testing and fault finding of controller units.</li>
+                  <li>
+                    Electrical installation including switchboards, monitoring
+                    panels, metering, and power control panels to be fully
+                    commissioned and operated on permanent power including
+                    relevant COCs.
+                  </li>
+                  <li>
+                    Electrical standby generators and UPS systems for constant
+                    plant monitoring.
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
-        <div> Micropower Experience</div>
+        {/* Coding */}
+        <div className="">
+          <div className="flex justify-around h-fit mt-[20px]">
+            {/* Year and Icon */}
+
+            <div className="flex flex-col items-center justify-around h-full w-[12vw]">
+              <img src={coder} alt="null" className="size-[80px]"></img>
+              <p className="text-[20px] font-bold">2023-PRESENT</p>
+            </div>
+            {/* Company And Description */}
+            <div className="flex flex-col h-full  w-[30vw]">
+              <div className="text-center text-2xl font-bold">
+                {" "}
+                Full Stack Software Developer
+              </div>
+              <span className="text-center font-bold">
+                {" "}
+                Freelance for Rand Water and Others
+              </span>
+              <div className="text-md">
+                <ul className="list-disc pl-4">
+                  <li>
+                    Building and designing mobile and web application UI & UX.
+                  </li>
+                  <li>
+                    Learning and integrating new technologies to meet tech
+                    specs.
+                  </li>
+                  <li>
+                    Colaborating with a team to impliment clean and maintainable
+                    code up to date with best practices..
+                  </li>
+                  <li>
+                    Working in a Devops environment to maintain proper and
+                    professional workflow.
+                  </li>
+                  <li>Unit testing and debugging techniques</li>
+                  <li>Cross platform application planning and development</li>
+                  <li>
+                    Building 3D models for 8th Wall AR and play-testing in unity
+                    game development.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+      {/* // */}
       <div className="flex flex-col my-[150px] mx-[20px] w-[45vw] rounded-[20px]">
         <div className="flex top[50px] left-[30px] w-[45vw] h-[260px] mb-[30px] rounded-[20px] bg-white">
           {/* EDUCATION SECTION */}

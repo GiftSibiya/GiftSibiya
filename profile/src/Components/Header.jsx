@@ -23,7 +23,7 @@ import linkedIn from "../assets/icons/linkedIn.png";
 function Header() {
   return (
     <>
-      <section className=" h-[430px] w-screen bg-[#fff8dd]">
+      <section className=" h-[430px] w-[98.7vw] bg-[#fff8dd]">
         <nav className="flex justify-between items-center mt-[2px] mx-[30px] w-[90%]">
           <div className="">
             <h3>Gift Sibiya</h3>
@@ -48,7 +48,7 @@ function Header() {
           </div>
         </nav>
 
-        <div className="flex w-screen justify-around">
+        <div className="flex w-[100vw] justify-around">
           <div className="p-[20px] text-[2rem]">
             <h2>Hello World</h2>
             <h2>I'M GIFT</h2>
