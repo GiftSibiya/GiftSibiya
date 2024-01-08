@@ -17,6 +17,7 @@ import csharp from "../assets/icons/Csharp.png";
 import dart from "../assets/icons/Dart.png";
 import github from "../assets/icons/github.png";
 import linkedIn from "../assets/icons/linkedIn.png";
+import DotNet from "../assets/icons/dotNET.png";
 
 //--//
 
@@ -87,6 +88,11 @@ function Header() {
                   src={dart}
                   alt=""
                 />
+                <img
+                  className="object-contain max-w-[60px]"
+                  src={DotNet}
+                  alt=""
+                ></img>
               </div>
               <div className="flex w-[50vw] ">
                 <a

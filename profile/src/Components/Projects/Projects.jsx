@@ -6,11 +6,9 @@ import React from "react";
 
 /// Import Files ///
 
-import "./Projects.css";
 import ProjectCard from "./ProjectCard/ProjectCard";
 
 // assets //
-import frontSeat1 from "../../assets/images/light_screenshot.png";
 import Darticon from "../logoComponent/Darticon";
 import AndroidStudio from "../logoComponent/AndroiStudio";
 
@@ -18,10 +16,10 @@ import AndroidStudio from "../logoComponent/AndroiStudio";
 
 function Projects() {
   return (
-    <section className="projects">
-      <h2 className="projects__title">Projects</h2>
-      <h5 className="projects__description">Projects</h5>
-      <div className="projectsCard">
+    <section className="bg-[#fff8dd] h-[150vh] ">
+      <h2 className="text-[50px] text-center">Projects</h2>
+      <h5 className="text-[20px] text-center mb-[90px]">Projects</h5>
+      <div className="my-[20px]">
         <ProjectCard
           screenshot=""
           title="FrontSeat"
