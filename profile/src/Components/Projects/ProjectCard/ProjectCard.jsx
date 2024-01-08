@@ -16,9 +16,9 @@ import AndroidStudio from "../../logoComponent/AndroiStudio";
 
 function ProjectCard(props) {
   return (
-    <div className="flex border-2 justify-around h-[350px] mt-[40px]">
+    <div className="flex border-2 p-2 justify-around h-[350px] mt-[40px]">
       <div className="flex justify-around h-[250px] border-b-[1px] border-grey">
-        <div className="size-[200px]">
+        <div className="size-[190px]">
           <img src={props.screenshot} alt="" />
         </div>
         <div className="flex flex-col items-center justify-center h-[250px] w-[55vw]">
@@ -30,7 +30,7 @@ function ProjectCard(props) {
           </div>
 
           {/* Description */}
-          <div className="text-center text-[1rem] my-[12px]">
+          <div className="text-center w-[50vw] text-[1rem] my-[12px]">
             {props.description}
           </div>
 
