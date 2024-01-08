@@ -52,10 +52,11 @@ function Header() {
           <div className="p-[20px] text-[2rem]">
             <h2>Hello World</h2>
             <h2>I'M GIFT</h2>
-            <p className="w-[350px] mt-[40px] text-[20px]">
-              I am a full stack web & mobile developer based in Midrand, South
-              Africa with extensive experience working and adapting to front and
-              backend tech stacks from javascript to ASP.NET CRUD applications.
+            <p className="w-[400px] mt-[40px] text-[20px]">
+              I am a full stack web & mobile developer with a background in
+              Electrical Engineering based in Midrand, South Africa with
+              extensive experience working and adapting to front and backend
+              tech stacks from javascript to ASP.NET CRUD applications.
             </p>
             <div className="flex flex-col">
               <div className="flex w-[50vw] justify-between my-[10px]">
