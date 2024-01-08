@@ -11,22 +11,32 @@ import ProjectCard from "./ProjectCard/ProjectCard";
 // assets //
 import Darticon from "../logoComponent/Darticon";
 import AndroidStudio from "../logoComponent/AndroiStudio";
+import fronSeat from "../../assets/images/frontSeatGif.gif";
+import VsCode from "../logoComponent/VsCode";
 
 //--//
 
 function Projects() {
   return (
     <section className="bg-[#fff8dd] h-[150vh] ">
+      {/* Font Seat */}
+
       <h2 className="text-[50px] text-center">Projects</h2>
       <h5 className="text-[20px] text-center mb-[90px]">Projects</h5>
       <div className="my-[20px]">
         <ProjectCard
-          screenshot=""
+          screenshot={fronSeat}
           title="FrontSeat"
           description="The mobile version of my web Taxi Maths 
           calculator taken from html and css to Dart and flutter"
-          techStack={[<Darticon key="dart" />, <AndroidStudio key="android" />]}
+          techStack={[
+            <VsCode key="vsCode" />,
+            <AndroidStudio key="android" />,
+            <Darticon key="dart" />,
+          ]}
         />
+
+        {/* Second Project */}
         <ProjectCard
           screenshot=""
           title="FrontSeat"
