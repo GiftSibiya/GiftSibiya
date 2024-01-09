@@ -29,8 +29,7 @@ function Projects() {
         <ProjectCard
           screenshot={fronSeat}
           title="FrontSeat"
-          description="The official mobile version of my web Taxi Maths 
-          calculator taken from html, css and JavaScript to Dart and flutter. Simple and sleek design for an ease of UX "
+          description="Introducing the official mobile version of Taxi Maths, transitioning from HTML, CSS, and JavaScript to Dart and Flutter. The sleek design ensures a user-friendly experience, enhancing the ease of use for this innovative and efficient calculator."
           techStack={[
             <VsCode key="vsCode" />,
             <AndroidStudio key="android" />,
@@ -44,7 +43,7 @@ function Projects() {
         <ProjectCard
           screenshot={artisan}
           title="Artisan Finder"
-          description="The software sollution to finsing qualified, talented and capable indivials at a few taps of the screen"
+          description="Experience a groundbreaking software solution that streamlines the process of finding qualified, talented, and capable individuals—all at your fingertips. Our innovative technology simplifies talent discovery with user-friendly taps on the screen, offering a seamless and efficient approach to connecting with the best candidates for your needs"
           techStack={[
             <VsCode key="vsCode" />,
             <Darticon key="dart" />,
@@ -55,7 +54,7 @@ function Projects() {
         <ProjectCard
           screenshot={sneke}
           title="Sneke"
-          description="A User Interface and front end design challenge foor a food and snack application. Made as a quick template for e-commerce applications"
+          description="Engage in a UI and front-end challenge for a food and snack app. A quick, e-commerce-ready template, designed to elevate the user experience, perfect for culinary enthusiasts exploring delicious offerings."
           techStack={[
             <VsCode key="vsCode" />,
             <Darticon key="dart" />,
