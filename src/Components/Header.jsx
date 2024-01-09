@@ -33,13 +33,13 @@ function Header() {
 
   return (
     <>
-      <section className=" scroll-smooth h-[430px] w-[98.7vw] bg-[#fff8dd]">
-        <nav className="flex justify-between items-center mt-[2px] mx-[30px] w-[90%]">
+      <section className="  scroll-smooth h-[400px] w-screen bg-[#fff8dd]">
+        <nav className="flex justify-between items-center mt-[2px] mx-[30px] w-screen">
           <div className="">
             <h3>Gift Sibiya</h3>
           </div>
 
-          <div className="flex 2-[300px] justify-around">
+          <div className="flex w-[300px] justify-around">
             <a
               href="#aboutMeSection"
               onClick={(e) => scrollToSection("aboutMeSection", e)}
@@ -67,18 +67,18 @@ function Header() {
           </div>
         </nav>
 
-        <div className="flex w-[100vw] justify-around">
-          <div className="p-[20px] text-[2rem]">
-            <h2>Hello World</h2>
-            <h2>I'M GIFT</h2>
-            <p className="w-[400px] mt-[40px] text-[20px]">
+        <div className="flex  justify-around">
+          <div className="p-[20px]">
+            <h2 className="text-[2rem] ml-[20px]">Hello World</h2>
+            <h2 className="ml-[20px]">I'M GIFT</h2>
+            <p className="w-[250px] ml-[20px] sm:w-[400px] mt-[40px] md:text-[20px]  text-[15px]">
               I am a full stack web & mobile developer with a background in
               Electrical Engineering based in Midrand, South Africa with
               extensive experience working and adapting to front and backend
               tech stacks from javascript to ASP.NET CRUD applications.
             </p>
-            <div className="flex flex-col">
-              <div className="flex w-[50vw] justify-between my-[10px]">
+            <div className="flex flex-col ">
+              <div className="flex w-[50vw] justify-between ml-2 my-[10px]">
                 <img
                   className="object-contain max-w-[60px]"
                   src={html}
@@ -101,36 +101,32 @@ function Header() {
                   alt=""
                 />
                 <img className="object-contain w-[70px] " src={csharp} alt="" />
-                <img
-                  className="object-contain w-[40px] hover:w-[80px]"
-                  src={dart}
-                  alt=""
-                />
+                <img className="object-contain w-[40px] " src={dart} alt="" />
                 <img
                   className="object-contain max-w-[60px]"
                   src={DotNet}
                   alt=""
                 ></img>
               </div>
-              <div className="flex w-[50vw] ">
+              <div className="flex  w-screem ">
                 <a
                   href="https://github.com/GiftSibiya"
-                  className="flex cursor-pointer items-center w-[20vw] mx-[10px] p-[10px] rounded-[10px]  text-decoration-none bg-[#1f1f1f] border-[2px] border-white "
+                  className="flex cursor-pointer items-center w-[30vw] mx-[10px] p-[10px] rounded-[10px]  text-decoration-none bg-[#1f1f1f] border-[2px] border-white "
                 >
-                  <img className="w-[30px]" src={github} alt="" />
-                  <p className="text-white text-[1.5vw]">github/GiftSibiya</p>
+                  <img className="w-[25px] sm:w-[30px]" src={github} alt="" />
+                  <p className="text-white text-[2.5vw]">github/GiftSibiya</p>
                 </a>
                 <a
                   href="https://www.linkedin.com/in/gift-sibiya-38134a21b/"
-                  className="flex cursor-pointer items-center w-[20vw] mx-[10px] p-[10px] rounded-[10px] text-decoration-none bg-white border-[2px] border-[#5182cb]"
+                  className="flex cursor-pointer items-center w-[30vw] mx-[10px] p-[10px] rounded-[10px] text-decoration-none bg-white border-[2px] border-[#5182cb]"
                 >
-                  <img className="w-[30px] " src={linkedIn} alt="" />
-                  <p className="text-black text-[1.5vw]">linkedIn/GiftSibiya</p>
+                  <img className="w-[25px] sm:w-[30px]" src={linkedIn} alt="" />
+                  <p className="text-black text-[2.5vw]">linkedIn/GiftSibiya</p>
                 </a>
               </div>
             </div>
           </div>
-          <div className="my-[60px]">
+          <div className=" my-[50px]">
             <ProfileCard />
           </div>
         </div>

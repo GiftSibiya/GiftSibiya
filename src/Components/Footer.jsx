@@ -28,9 +28,9 @@ function Footer() {
   };
 
   return (
-    <section className="flex mt-[280px] h-[200px] bg-[#67bcaa] border-2 ">
+    <section className="flex flex-col items-center justify-center mt-[240px] w-[115vw] h-[600px] bg-[#67bcaa] border-2 border-black">
       {/* Contact From */}
-      <div className="relative top-[-240px] left-[20px] h-[370px] w-[50vw] rounded-[20px] border-2 border-white bg-[#fff8dd]">
+      <div className=" top-[-240px] left-[20px] h-[370px] w-screen rounded-[20px] p-2 border-2 border-white bg-[orange]">
         <form
           className="flex flex-col h-full items-center "
           ref={form}
@@ -66,7 +66,7 @@ function Footer() {
       </div>
       <div className="flex felx-col w-[50vw] justify-end">
         {/* Footer Things */}
-        <div className=" relative top[-20px] left[30px] h-full w-[45vw] font-[50px]">
+        <div className=" h-full w-[45vw] mt-3 font-[50px]">
           <h5 className="text-center">Follow Me:</h5>
           <div className="m-5">
             <p className="flex justify-between ">
@@ -82,10 +82,8 @@ function Footer() {
             </p>
             <p className="flex justify-between ">
               {" "}
-              Email: <a href="sibiya.bobo@gmail.com">
-                {" "}
-                sibiya.bobo@gmail.com{" "}
-              </a>{" "}
+              Email:{" "}
+              <a href="sibiya.bobo@gmail.com"> giftsibiya.gb@gmail.com </a>{" "}
             </p>
             <p className="flex justify-between ">
               {" "}

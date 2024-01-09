@@ -13,8 +13,8 @@ import Footer from "./Components/Footer";
 //Main Code//
 function HomeScreen() {
   return (
-    <body className="scroll-smooth">
-      <header className="w-screen">
+    <body className="scroll-smooth w-screen border-2">
+      <header className="w-screen border-2 border-black">
         <Header />
       </header>
       <section className=" " id="aboutMeSection">

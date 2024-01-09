@@ -30,7 +30,7 @@ function ProjectCard(props) {
           </div>
 
           {/* Description */}
-          <div className="text-center w-[50vw] text-[1rem] my-[12px]">
+          <div className="text-center w-[50vw] text-[12px] my-[12px]">
             {props.description}
           </div>
 

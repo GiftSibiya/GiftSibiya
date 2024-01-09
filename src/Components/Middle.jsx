@@ -16,13 +16,14 @@ import warning from "../assets/skillIcons/warning.png";
 //--//
 function Middle() {
   return (
-    <section className="flex justify-between my-[20] h-[190vh] bg-[#67bcaa]">
+    <section className="flex flex-col justify-between my-[20] w-[120vw] h-[390vh] bg-[#67bcaa]">
       {/* Experience */}
 
-      <div className=" flex flex-col border-2 border-black relative top-[120px] left-[10px] w-[45vw] h-[850px] rounded-[20px] border-whit  bg-[#fff8dd] ">
+      <div className=" flex flex-col border-2 border-black relative top-[120px] left-[10px] w-[105vw] h-[1420px] rounded-[20px] border-whit  bg-[#fff8dd] ">
+        {/* Experience Container */}
         <div className="">
           <h3 className="font-bold text-[2rem] text-center mb-3">EXPERIENCE</h3>
-          <div className="flex justify-around h-fit ">
+          <div className="flex justify-between h-fit ">
             {/* Year and Icon */}
 
             <div className="flex flex-col items-center justify-around h-full w-[12vw]">
@@ -30,8 +31,8 @@ function Middle() {
               <p className="text-[20px] font-bold">2021-2023</p>
             </div>
             {/* Company And Description */}
-            <div className="flex flex-col h-full  w-[30vw]">
-              <div className="text-center text-2xl font-bold">
+            <div className="flex flex-col h-full  w-[60vw]">
+              <div className="text-center text-2xl  font-bold">
                 {" "}
                 Senior BMS & IT Technician
               </div>
@@ -71,7 +72,7 @@ function Middle() {
         </div>
         {/* Coding */}
         <div className="">
-          <div className="flex justify-around h-fit mt-[20px]">
+          <div className="flex justify-around w-80vw mt-[20px]">
             {/* Year and Icon */}
 
             <div className="flex flex-col items-center justify-around h-full w-[12vw]">
@@ -79,7 +80,7 @@ function Middle() {
               <p className="text-[20px] font-bold">2023-PRESENT</p>
             </div>
             {/* Company And Description */}
-            <div className="flex flex-col h-full  w-[30vw]">
+            <div className="flex flex-col h-full  w-[55vw]">
               <div className="text-center text-2xl font-bold">
                 {" "}
                 Full Stack Software Developer
@@ -88,7 +89,7 @@ function Middle() {
                 {" "}
                 Freelance for Rand Water and Others
               </span>
-              <div className="text-md">
+              <div className="text-md w-[65vw]">
                 <ul className="list-disc pl-4">
                   <li>
                     Building and designing mobile and web application UI & UX.
@@ -119,21 +120,18 @@ function Middle() {
       </div>
       {/* // */}
       <div className="flex flex-col my-[150px] mx-[20px] w-[45vw] rounded-[20px]">
-        <div className="flex top[50px] left-[30px] w-[45vw] h-[260px] mb-[30px] rounded-[20px] bg-white">
+        <div className="flex w-screen border-2 h-[300px] mb-[30px] rounded-[20px] bg-white">
           {/* EDUCATION SECTION */}
 
           {/* Column 1 for stars */}
           <div>
-            <img className="my-[40px]" src={star} alt="Star icon"></img>
+            <img className="my-[80px]" src={star} alt="Star icon"></img>
             <img className="my-[40px]" src={star} alt="Star icon"></img>
           </div>
           {/* Column 2 */}
-          <div className="relative ml-[10px] top-[-40px]">
-            <h3 className="relative top-[-20px] right-[-140px] text-[2rem] font-bold">
-              {" "}
-              EDUCATION
-            </h3>
-            <div className="flex items-center bg-[orange] my-[20px] rounded-2xl border-black w-[38vw] h-[90px]">
+          <div className=" ml-[10px] ">
+            <h3 className="text-[2rem] text-center font-bold"> EDUCATION</h3>
+            <div className="flex items-center bg-[orange] my-[20px] rounded-2xl border-black w-[88vw] h-[90px]">
               <div className="mx-[30px] text-[25px]"> 2020</div>
               <div className="mx-[2vw]">
                 <div className="text-[20px]">
@@ -142,7 +140,7 @@ function Middle() {
                 <div>Denver Technical College</div>
               </div>
             </div>
-            <div className="flex items-center bg-[orange] my-[20px] rounded-2xl border-black w-[38vw] h-[90px]">
+            <div className="flex items-center bg-[orange] my-[20px] rounded-2xl border-black w-[88vw] h-[90px]">
               <div className="mx-[30px] text-[25px]"> 2020</div>
               <div className="mx-[2vw]">
                 <div className="text-[20px]">Technical Matric</div>
@@ -153,19 +151,16 @@ function Middle() {
         </div>
 
         {/* Skills Sections */}
-        <div className="flex flex-col relative top-[50px] h-[300px] rounded-[20px] bg-[#5182cb]">
+        <div className="flex flex-col h-[300px] w-[100vw] rounded-[20px] bg-[#5182cb]">
           {/* Skills Box */}
-          <h3 className=" relative top-[-50px] left-[260px] text-[2rem] font-bold">
-            {" "}
-            SKILLS
-          </h3>
-          <div className="flex flex-row justify-around ">
+          <h3 className=" text-[2rem] text-center font-bold"> SKILLS</h3>
+          <div className="flex flex-row px-5 justify-between ">
             {/* Software Skills */}
             <div className="flex flex-col mx-2 justify-center text-center rounded-2xl border-black ">
-              <p className="text-2xl mb-4 font-bold text-center w-[18vw] ">
+              <p className="text-2xl mb-4 font-bold text-center w-[40vw] ">
                 Software Skils
               </p>
-              <div className="flex flex-col  w-[18vw] justify-center">
+              <div className="flex flex-col  w-[30vw] justify-center">
                 <div className="flex items-center justify-between ">
                   <img className="h-[54px] " alt="" src={photoshop}></img>
                   <img className="h-[40px] " alt="" src={illustrator}></img>
@@ -182,15 +177,14 @@ function Middle() {
                 </div>
               </div>
             </div>
-            <div className="flex flex-col justify-center text-center rounded-2xl">
-              <p className="text-2xl font-bold mb-4 text-center w-[18vw] ">
+            <div className="flex flex-col items-center text-center rounded-2xl">
+              <p className="text-2xl  font-bold mb-4 text-center w-[40vw] ">
                 Technical Skils
               </p>
-              <ul className="flex flex-col w-[20vw] justify-center">
+              <ul className="flex flex-col w-[30vw] justify-center">
                 <li>Hand Tool Skills</li>
                 <li>Electrical Fault Finding</li>
                 <li> </li>
-                <li>Yeah, I can probably fix your printer</li>
                 <li>Hand Tools</li>
               </ul>
             </div>
