@@ -17,17 +17,17 @@ function HomeScreen() {
       <header className="w-screen">
         <Header />
       </header>
-      <section className=" ">
+      <section className=" " id="aboutMeSection">
         <Middle />
+      </section>
+      <section className="" id="projectsSection">
         <Projects />
       </section>
-      <footer>
+      <footer id="getInTouchSection">
         <Footer />
       </footer>
     </>
   );
 }
-
-//**//
 
 export default HomeScreen;

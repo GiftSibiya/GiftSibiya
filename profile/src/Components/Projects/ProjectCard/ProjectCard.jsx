@@ -45,14 +45,14 @@ function ProjectCard(props) {
             <div className="flex justify-between h-[30px] w-[300px]">
               <a
                 className="flex w-[130px] h-[30px] bg-[#141414] rounded-[20px] text-white text-center justify-center items-center "
-                href="null"
+                href={props.gitLink}
               >
                 <img className="h-[20px] mx-[5px]" src={github} alt="" />
                 <div className="">Code Here</div>
               </a>
               <a
                 className="flex w-[130px] h-[30px] bg-[orange] rounded-[20px] text-white text-center justify-center items-center "
-                href="null"
+                href={props.demoLink}
               >
                 Demo Here
               </a>

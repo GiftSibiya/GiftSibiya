@@ -22,6 +22,13 @@ import DotNet from "../assets/icons/dotNET.png";
 //--//
 
 function Header() {
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <>
       <section className=" h-[430px] w-[98.7vw] bg-[#fff8dd]">
@@ -31,16 +38,25 @@ function Header() {
           </div>
 
           <div className="flex 2-[300px] justify-around">
-            <a href="null" className="p-[10px] cursor-pointer">
+            <a
+              href="#aboutMeSection"
+              onClick={() => scrollToSection("aboutMeSection")}
+              className="p-[10px] cursor-pointer"
+            >
               {" "}
               About Me
             </a>
-            <a href="null" className=" p-[10px] cursor-pointer ">
+            <a
+              href="#projectsSection"
+              onClick={() => scrollToSection("projectsSection")}
+              className=" p-[10px] cursor-pointer "
+            >
               {" "}
               Projects
             </a>
             <a
-              href="null"
+              href="#getInTouchSection"
+              onClick={() => scrollToSection("getInTouchSection")}
               className=" p-[10px] cursor-pointer bg-[orange] rounded-[20px] text-white "
             >
               {" "}

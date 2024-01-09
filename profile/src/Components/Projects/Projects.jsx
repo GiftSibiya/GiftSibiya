@@ -36,6 +36,8 @@ function Projects() {
             <AndroidStudio key="android" />,
             <Darticon key="dart" />,
           ]}
+          gitLink="https://github.com/GiftSibiya/flutter_FrontSeat"
+          demoLink="https://www.tiktok.com/@b0b0.sa/video/7310111195896319237?is_from_webapp=1&sender_device=pc&web_id=7322080456966292997"
         />
 
         {/* Second Project */}
@@ -59,6 +61,8 @@ function Projects() {
             <Darticon key="dart" />,
             <AndroidStudio key="android" />,
           ]}
+          gitLink="https://github.com/GiftSibiya/Sneke"
+          demoLink="https://www.tiktok.com/@b0b0.sa/video/7302842159093271814?is_from_webapp=1&sender_device=pc&web_id=7322080456966292997"
         />
       </div>
     </section>
