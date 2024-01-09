@@ -12,13 +12,15 @@ import ProjectCard from "./ProjectCard/ProjectCard";
 import Darticon from "../logoComponent/Darticon";
 import AndroidStudio from "../logoComponent/AndroiStudio";
 import fronSeat from "../../assets/images/frontSeatGif.gif";
+import artisan from "../../assets/images/artisan.gif";
+import sneke from "../../assets/images/sneke.gif";
 import VsCode from "../logoComponent/VsCode";
 
 //--//
 
 function Projects() {
   return (
-    <section className="bg-[#fff8dd] h-[150vh] ">
+    <section className="bg-[#fff8dd] h-[200vh] ">
       {/* Font Seat */}
 
       <h2 className="text-[50px] text-center">Public Projects</h2>
@@ -38,11 +40,25 @@ function Projects() {
 
         {/* Second Project */}
         <ProjectCard
-          screenshot=""
-          title="FrontSeat"
-          description="The mobile version of my web Taxi Maths 
-          calculator taken from html and css to Dart and flutter"
-          techStack={[<Darticon key="dart" />, <AndroidStudio key="android" />]}
+          screenshot={artisan}
+          title="Artisan Finder"
+          description="The software sollution to finsing qualified, talented and capable indivials at a few taps of the screen"
+          techStack={[
+            <VsCode key="vsCode" />,
+            <Darticon key="dart" />,
+            <AndroidStudio key="android" />,
+          ]}
+        />
+        {/* Second Project */}
+        <ProjectCard
+          screenshot={sneke}
+          title="Sneke"
+          description="A User Interface and front end design challenge foor a food and snack application. Made as a quick template for e-commerce applications"
+          techStack={[
+            <VsCode key="vsCode" />,
+            <Darticon key="dart" />,
+            <AndroidStudio key="android" />,
+          ]}
         />
       </div>
     </section>

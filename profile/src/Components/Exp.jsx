@@ -4,7 +4,7 @@ import warning from "../assets/skillIcons/warning.png";
 
 function Exp() {
   return (
-    <div className="relative top-[120px] left-[10px] w-[45vw] h-[500px] rounded-[20px] border-white  bg-[#fff8dd] ">
+    <div className="relative top-[120px] left-[10px] w-[45vw] h-[500px] rounded-[20px] border-black border-2  bg-[#fff8dd] ">
       <h3 className="font-bold text-[2rem] text-center mb-3">EXPERIENCE</h3>
       <div className="flex justify-around h-fit ">
         {/* Year and Icon */}
