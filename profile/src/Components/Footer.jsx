@@ -19,6 +19,7 @@ function Footer() {
       .then(
         (result) => {
           console.log(result.text);
+          alert("Thank You, I will get back to you as soon as I can");
         },
         (error) => {
           console.log(error.text);
@@ -38,18 +39,21 @@ function Footer() {
           <p className=" my-2 "> Get In Touch With Me </p>
           <label>Name</label>
           <input
+            required
             className="w-[80%] h-[50px] rounded-xl p-2"
             type="text"
             name="from_name"
           />
           <label>Email</label>
           <input
+            required
             className="w-[80%] h-[50px] rounded-xl p-2"
             type="email"
             name="user_email"
           />
           <label>Message</label>
           <textarea
+            required
             className="w-[80%] h-[160px] rounded-xl p-2 resize-none"
             name="message"
           />
