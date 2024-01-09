@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/GiftSibiya/static/css/main.20cdbce9.css",
-    "main.js": "/GiftSibiya/static/js/main.2b2592b0.js",
+    "main.css": "/GiftSibiya/static/css/main.f3abb334.css",
+    "main.js": "/GiftSibiya/static/js/main.bb97fe20.js",
     "static/media/sneke.gif": "/GiftSibiya/static/media/sneke.0e596ce1c77b1e52889a.gif",
     "static/media/artisan.gif": "/GiftSibiya/static/media/artisan.02d3614a581362866256.gif",
     "static/media/frontSeatGif.gif": "/GiftSibiya/static/media/frontSeatGif.c6be3ce07e338c92e903.gif",
@@ -10,11 +10,11 @@
     "static/media/Csharp.png": "/GiftSibiya/static/media/Csharp.fc430729bfa8902c06fd.png",
     "static/media/linkedIn.png": "/GiftSibiya/static/media/linkedIn.aefe7d78a16ce2c7d49e.png",
     "index.html": "/GiftSibiya/index.html",
-    "main.20cdbce9.css.map": "/GiftSibiya/static/css/main.20cdbce9.css.map",
-    "main.2b2592b0.js.map": "/GiftSibiya/static/js/main.2b2592b0.js.map"
+    "main.f3abb334.css.map": "/GiftSibiya/static/css/main.f3abb334.css.map",
+    "main.bb97fe20.js.map": "/GiftSibiya/static/js/main.bb97fe20.js.map"
   },
   "entrypoints": [
-    "static/css/main.20cdbce9.css",
-    "static/js/main.2b2592b0.js"
+    "static/css/main.f3abb334.css",
+    "static/js/main.bb97fe20.js"
   ]
 }
