@@ -24,7 +24,10 @@ function Projects() {
       {/* Font Seat */}
 
       <h2 className="text-[50px] text-center">Public Projects</h2>
-      <h5 className="text-[20px] text-center mb-[90px]">Projects</h5>
+      <h5 className="text-[20px] text-center mb-[90px]">
+        My latest public development projects that I have developed. There's
+        more coming that's currently in production ^ _ ^ .{" "}
+      </h5>
       <div className="my-[20px]">
         <ProjectCard
           screenshot={fronSeat}

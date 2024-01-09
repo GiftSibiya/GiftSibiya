@@ -14,7 +14,7 @@ import Footer from "./Components/Footer";
 function HomeScreen() {
   return (
     <body className="scroll-smooth w-screen border-2">
-      <header className="w-screen border-2 border-black">
+      <header className="w-screen">
         <Header />
       </header>
       <section className=" " id="aboutMeSection">

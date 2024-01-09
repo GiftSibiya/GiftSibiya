@@ -28,9 +28,9 @@ function Footer() {
   };
 
   return (
-    <section className="flex flex-col items-center justify-center mt-[240px] w-[115vw] h-[600px] bg-[#67bcaa] border-2 border-black">
+    <section className="flex flex-col items-center justify-center mt-[240px] w-[100vw] h-[600px] bg-[#67bcaa] ">
       {/* Contact From */}
-      <div className=" top-[-240px] left-[20px] h-[370px] w-screen rounded-[20px] p-2 border-2 border-white bg-[orange]">
+      <div className="h-[370px] w-[90vw] rounded-[20px] p-2 border-2 border-white bg-[orange]">
         <form
           className="flex flex-col h-full items-center "
           ref={form}

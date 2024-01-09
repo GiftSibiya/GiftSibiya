@@ -33,13 +33,13 @@ function Header() {
 
   return (
     <>
-      <section className="  scroll-smooth h-[400px] w-screen bg-[#fff8dd]">
+      <section className="scroll-smooth h-[400px] w-[100vw] bg-[#fff8dd]">
         <nav className="flex justify-between items-center mt-[2px] mx-[30px] w-screen">
           <div className="">
             <h3>Gift Sibiya</h3>
           </div>
 
-          <div className="flex w-[300px] justify-around">
+          <div className="flex w-[300px] mr-[80px] justify-around">
             <a
               href="#aboutMeSection"
               onClick={(e) => scrollToSection("aboutMeSection", e)}
@@ -69,12 +69,14 @@ function Header() {
 
         <div className="flex  justify-around">
           <div className="p-[20px]">
-            <h2 className="text-[2rem] ml-[20px]">Hello World</h2>
-            <h2 className="ml-[20px]">I'M GIFT</h2>
+            <h2 className="text-[2rem] ml-[20px]">Hello World.</h2>
+            <h2 className="ml-[20px]">
+              My name is Gift Sibiya & welcome to my early 2024 Portfolio.
+            </h2>
             <p className="w-[250px] ml-[20px] sm:w-[400px] mt-[40px] md:text-[20px]  text-[15px]">
               I am a full stack web & mobile developer with a background in
               Electrical Engineering based in Midrand, South Africa with
-              extensive experience working and adapting to front and backend
+              extensive experience working and adapting to frontend and backend
               tech stacks from javascript to ASP.NET CRUD applications.
             </p>
             <div className="flex flex-col ">
