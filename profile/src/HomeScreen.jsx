@@ -13,7 +13,7 @@ import Footer from "./Components/Footer";
 //Main Code//
 function HomeScreen() {
   return (
-    <>
+    <body className="scroll-smooth">
       <header className="w-screen">
         <Header />
       </header>
@@ -26,7 +26,7 @@ function HomeScreen() {
       <footer id="getInTouchSection">
         <Footer />
       </footer>
-    </>
+    </body>
   );
 }
 

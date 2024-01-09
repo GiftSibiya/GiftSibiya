@@ -22,16 +22,18 @@ import DotNet from "../assets/icons/dotNET.png";
 //--//
 
 function Header() {
-  const scrollToSection = (sectionId) => {
+  function scrollToSection(sectionId, event) {
+    event.preventDefault(); // Prevent the default behavior of the anchor tag
+
     const section = document.getElementById(sectionId);
     if (section) {
       section.scrollIntoView({ behavior: "smooth" });
     }
-  };
+  }
 
   return (
     <>
-      <section className=" h-[430px] w-[98.7vw] bg-[#fff8dd]">
+      <section className=" scroll-smooth h-[430px] w-[98.7vw] bg-[#fff8dd]">
         <nav className="flex justify-between items-center mt-[2px] mx-[30px] w-[90%]">
           <div className="">
             <h3>Gift Sibiya</h3>
@@ -40,7 +42,7 @@ function Header() {
           <div className="flex 2-[300px] justify-around">
             <a
               href="#aboutMeSection"
-              onClick={() => scrollToSection("aboutMeSection")}
+              onClick={(e) => scrollToSection("aboutMeSection", e)}
               className="p-[10px] cursor-pointer"
             >
               {" "}
@@ -48,7 +50,7 @@ function Header() {
             </a>
             <a
               href="#projectsSection"
-              onClick={() => scrollToSection("projectsSection")}
+              onClick={(e) => scrollToSection("projectsSection", e)}
               className=" p-[10px] cursor-pointer "
             >
               {" "}
@@ -56,7 +58,7 @@ function Header() {
             </a>
             <a
               href="#getInTouchSection"
-              onClick={() => scrollToSection("getInTouchSection")}
+              onClick={(e) => scrollToSection("getInTouchSection", e)}
               className=" p-[10px] cursor-pointer bg-[orange] rounded-[20px] text-white "
             >
               {" "}
