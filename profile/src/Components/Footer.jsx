@@ -37,18 +37,57 @@ function Footer() {
         >
           <p className=" my-2 "> Get In Touch With Me </p>
           <label>Name</label>
-          <input type="text" name="from_name" />
+          <input
+            className="w-[80%] h-[50px] rounded-xl p-2"
+            type="text"
+            name="from_name"
+          />
           <label>Email</label>
-          <input type="email" name="user_email" />
+          <input
+            className="w-[80%] h-[50px] rounded-xl p-2"
+            type="email"
+            name="user_email"
+          />
           <label>Message</label>
-          <textarea name="message" />
-          <input type="submit" value="Send" />
+          <textarea
+            className="w-[80%] h-[160px] rounded-xl p-2 resize-none"
+            name="message"
+          />
+          <input
+            className="bg-[#67bcaa] p-2 w-[100px] rounded-lg mt-2"
+            type="submit"
+            value="Send"
+          />
         </form>
       </div>
       <div className="flex felx-col w-[50vw] justify-end">
         {/* Footer Things */}
-        <div className="border-2 border-black relative top[-20px] left[30px] h-full w-[45vw] font-[50px]">
-          <h5>Follow Me:</h5>
+        <div className=" relative top[-20px] left[30px] h-full w-[45vw] font-[50px]">
+          <h5 className="text-center">Follow Me:</h5>
+          <div className="m-5">
+            <p className="flex justify-between ">
+              {" "}
+              TikTok: <a href="https://www.tiktok.com/@b0b0.sa">
+                @b0b0.sa
+              </a>{" "}
+            </p>
+            <p className="flex justify-between ">
+              {" "}
+              Instagram:{" "}
+              <a href="https://www.instagram.com/b0b0_sa/">@b0b0_sa</a>{" "}
+            </p>
+            <p className="flex justify-between ">
+              {" "}
+              Email: <a href="sibiya.bobo@gmail.com">
+                {" "}
+                sibiya.bobo@gmail.com{" "}
+              </a>{" "}
+            </p>
+            <p className="flex justify-between ">
+              {" "}
+              Whatsapp: <a href="">071 244 2080</a>{" "}
+            </p>
+          </div>
         </div>
         <div className=" "></div>
       </div>
