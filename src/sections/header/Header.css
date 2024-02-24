@@ -1,0 +1,93 @@
+.mainSection {
+  height: 400px;
+  width: 99vw;
+  background-color: #fff8dd;
+}
+
+/* NAVBAR SECTION */
+.navSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav--Links {
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+  margin-right: 80px;
+}
+.nav--Item {
+  padding: 10px;
+  cursor: pointer;
+}
+.nav--Item__Btn {
+  padding: 10px;
+  cursor: pointer;
+  background-color: orange;
+  border-radius: 20px;
+  color: white;
+}
+.headerParagraph__con {
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid red;
+}
+.headerParagraph__Intro {
+  padding: 20px;
+}
+.headerParagraph__heading {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-left: 20px;
+}
+.headerParagraph__tagline {
+  margin-left: 20px;
+}
+.headerParagraph__bio {
+  width: 450px;
+  margin-top: 10px;
+  font-size: 20px;
+  margin-left: 20px;
+}
+.headerStack__con {
+  display: flex;
+  flex-direction: column;
+}
+.headerStack__icons {
+  display: flex;
+  width: 50vw;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin: 10px 0px;
+}
+.headerStack__icons {
+  object-fit: contain;
+  max-width: 80px;
+}
+.headerStack__socials {
+  display: flex;
+}
+.headerStack__socials__git {
+  display: flex;
+  width: 30vw;
+  margin: 10px 10px;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+  text-decoration: none;
+  background: #1f1f1f;
+  border: 2px solid white;
+}
+.headerStack__socials__linkedIn {
+  display: flex;
+  width: 30vw;
+  margin: 10px 10px;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+  text-decoration: none;
+  background: white;
+  border: 2px solid #5182cb;
+}
