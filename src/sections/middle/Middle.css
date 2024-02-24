@@ -20,7 +20,6 @@
   background-color: #fff8dd;
 }
 .exp__container {
-  border: 2px solid red;
 }
 .exp__heading {
   font-weight: bold;
@@ -69,4 +68,66 @@
 .exp__company--details--list {
   list-style: circle;
   padding-left: 20px;
+}
+.eduAndSkills {
+  display: flex;
+  flex-direction: column;
+  margin: 150px 20px;
+  width: 45vw;
+  border-radius: 20px;
+}
+.education--con {
+  display: flex;
+  justify-content: center;
+  width: 700px;
+  height: 320px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  background-color: white;
+}
+.education--subject {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.education--subject__bar {
+  display: flex;
+  align-items: center;
+  background-color: orange;
+  margin: 20px 0px;
+  border-radius: 20px;
+  border: 1px solid black;
+  width: 500px;
+  height: 90px;
+}
+.skills--con {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 700px;
+  border-radius: 20px;
+  background-color: #5182cb;
+}
+.skills--header {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+}
+.skills--innerCon {
+  display: flex;
+  padding: 0px 20px;
+  justify-content: space-around;
+}
+.skills--software {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  justify-content: center;
+}
+.skills--software__p {
+  font-size: large;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-align: center;
+  width: 200px;
 }

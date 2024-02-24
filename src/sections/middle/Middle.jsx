@@ -132,55 +132,53 @@ function Middle() {
         </div>
       </div>
       {/* // */}
-      <div className="flex flex-col my-[150px] mx-[20px] w-[45vw] md:w-[10vw] rounded-[20px]">
-        <div className="flex w-[93vw] md:w-[40vw] h-[300px] mb-[30px] rounded-[20px] bg-white">
+      <div className="eduAndSkills">
+        <div className="education--con">
           {/* EDUCATION SECTION */}
 
-          {/* Column 1 for stars */}
-          <div>
-            <img className="mt-[70px]" src={star} alt="Star icon"></img>
-            <img className="mt-[50px]" src={star} alt="Star icon"></img>
-          </div>
           {/* Column 2 */}
           <div className=" ml-[10px] ">
             <h3 className="text-[2rem] text-center font-bold"> EDUCATION</h3>
-            <div className="flex items-center bg-[orange] my-[20px] rounded-2xl border-black w-[75vw] md:w-[30vw] h-[90px]">
-              <div className="mx-[30px] md:mx-[10px] text-[25px] md:text-[20px]">
-                {" "}
-                2020
-              </div>
-              <div className="mx-[2vw]">
-                <div className="text-[20px] font-bold md:text-[14px]">
-                  Electrical Engineering N5 <br /> (HEAVY CURRENT)
+
+            {/* SUBJECT BAR */}
+            <div className="education--subject">
+              <img src={star} alt="Star icon"></img>
+              <div className="education--subject__bar">
+                <div className="mx-[30px] text-[25px] "> 2020</div>
+                <div className="mx-[2vw]">
+                  <div className="text-[20px] font-bold ">
+                    Electrical Engineering N5 <br /> (HEAVY CURRENT)
+                  </div>
+                  <div>Denver Technical College</div>
                 </div>
-                <div>Denver Technical College</div>
               </div>
             </div>
-            <div className="flex items-center bg-[orange] my-[20px] rounded-2xl border-black w-[75vw] md:w-[30vw] h-[90px]">
-              <div className="mx-[30px] md:mx-[10px] text-[25px] md:text-[20px]">
-                {" "}
-                2020
-              </div>
-              <div className="mx-[2vw]">
-                <div className="text-[20px] font-bold md:text-[14px]">
-                  Technical Matric
+
+            {/* -- */}
+            {/* SUBJECT BAR */}
+            <div className="education--subject">
+              <img src={star} alt="Star icon"></img>
+              <div className="education--subject__bar">
+                <div className="mx-[30px] text-[25px] "> 2020</div>
+                <div className="mx-[2vw]">
+                  <div className="text-[20px] font-bold ">Technical Matric</div>
+                  <div>Rhodesfield Technical High School</div>
                 </div>
-                <div>Rhodesfield Technical High School</div>
               </div>
             </div>
+
+            {/* -- */}
           </div>
         </div>
 
         {/* Skills Sections */}
-        <div className="flex flex-col h-[300px] w-[93vw] md:w-[40vw] rounded-[20px] bg-[#5182cb]">
+        <div className="skills--con">
           {/* Skills Box */}
-          <h3 className=" text-[2rem] text-center font-bold"> SKILLS</h3>
-          <div className="flex flex-row px-5 md:w-[40vw] justify-between ">
+          <h3 className="skills--header"> SKILLS</h3>
+          <div className="skills--innerCon ">
             {/* Software Skills */}
-            <div className="flex flex-col md:w-[25vw] justify-center text-center rounded-2xl border-black ">
-              <p className="text-2xl mb-4 font-bold text-center w-[40vw] md:w-[20vw] ">
-                Software Skils
-              </p>
+            <div className="skills--software">
+              <p className="skills--software__p ">Software Skils</p>
               <div className="flex flex-col  w-[30vw] md:w-[20vw] justify-center">
                 <div className="flex items-center justify-between ">
                   <img className="h-[54px] " alt="" src={photoshop}></img>
