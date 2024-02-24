@@ -3,15 +3,9 @@ import React from "react";
 //--//
 
 /// Import Files ///
-import Html from "../../logoComponent/Html";
-import Css from "../../logoComponent/Css";
-import JavaScript from "../../logoComponent/JavaScript";
-import ReactIcon from "../../logoComponent/ReactIcon";
-import NodeIcon from "../../logoComponent/NodeIcon";
+
 // import CsIcon from "../../logoComponent/CsIcon";
 import github from "../../../assets/icons/github.png";
-import Darticon from "../../logoComponent/Darticon";
-import AndroidStudio from "../../logoComponent/AndroiStudio";
 //--//
 
 function ProjectCard(props) {

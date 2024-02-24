@@ -2,17 +2,17 @@
 import React from "react";
 //--//
 /// Import Files ///
-import star from "../assets/icons/star.png";
-import illustrator from "../assets/skillIcons/illustrator.png";
-import blender from "../assets/skillIcons/blender.png";
-import linux from "../assets/skillIcons/linux.png";
-import photoshop from "../assets/skillIcons/photoshop.png";
-import unity from "../assets/skillIcons/unity.png";
-import vs from "../assets/skillIcons/vs.png";
-import vscode from "../assets/skillIcons/vscode.png";
-import xd from "../assets/skillIcons/xd.png";
-import coder from "../assets/skillIcons/programmer.png";
-import warning from "../assets/skillIcons/warning.png";
+import star from "../../assets/icons/star.png";
+import illustrator from "../../assets/skillIcons/illustrator.png";
+import blender from "../../assets/skillIcons/blender.png";
+import linux from "../../assets/skillIcons/linux.png";
+import photoshop from "../../assets/skillIcons/photoshop.png";
+import unity from "../../assets/skillIcons/unity.png";
+import vs from "../../assets/skillIcons/vs.png";
+import vscode from "../../assets/skillIcons/vscode.png";
+import xd from "../../assets/skillIcons/xd.png";
+import coder from "../../assets/skillIcons/programmer.png";
+import warning from "../../assets/skillIcons/warning.png";
 //--//
 function Middle() {
   return (

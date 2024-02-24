@@ -7,17 +7,17 @@ import React from "react";
 //*//
 
 // Icon Asset Imports //
-import ProfileCard from "./ProfileCard";
-import html from "../assets/icons/HTML.png";
-import css from "../assets/icons/Css.png";
-import javaScript from "../assets/icons/JS.png";
-import react from "../assets/icons/React.png";
-import node from "../assets/icons/Node.png";
-import csharp from "../assets/icons/Csharp.png";
-import dart from "../assets/icons/Dart.png";
-import github from "../assets/icons/github.png";
-import linkedIn from "../assets/icons/linkedIn.png";
-import DotNet from "../assets/icons/dotNET.png";
+import ProfileCard from "../../Components/ProfileCard";
+import html from "../../assets/icons/HTML.png";
+import css from "../../assets/icons/Css.png";
+import javaScript from "../../assets/icons/JS.png";
+import react from "../../assets/icons/React.png";
+import node from "../../assets/icons/Node.png";
+import csharp from "../../assets/icons/Csharp.png";
+import dart from "../../assets/icons/Dart.png";
+import github from "../../assets/icons/github.png";
+import linkedIn from "../../assets/icons/linkedIn.png";
+import DotNet from "../../assets/icons/dotNET.png";
 
 //--//
 

@@ -3,10 +3,10 @@ import React from "react";
 
 //**//
 // Components Imports //
-import Header from "./Components/Header";
-import Middle from "./Components/Middle";
-import Projects from "./Components/Projects/Projects";
-import Footer from "./Components/Footer";
+import Header from "./sections/header/Header";
+import Middle from "./sections/middle/Middle";
+import Projects from "./sections/projects/Projects";
+import Footer from "./sections/footer/Footer";
 
 //**//
 

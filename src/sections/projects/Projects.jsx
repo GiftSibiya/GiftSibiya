@@ -9,12 +9,12 @@ import React from "react";
 import ProjectCard from "./ProjectCard/ProjectCard";
 
 // assets //
-import Darticon from "../logoComponent/Darticon";
-import AndroidStudio from "../logoComponent/AndroiStudio";
+import Darticon from "../../Components/logoComponent/Darticon";
+import AndroidStudio from "../../Components/logoComponent/AndroiStudio";
 import fronSeat from "../../assets/images/frontSeatGif.gif";
 import artisan from "../../assets/images/artisan.gif";
 import sneke from "../../assets/images/sneke.gif";
-import VsCode from "../logoComponent/VsCode";
+import VsCode from "../../Components/logoComponent/VsCode";
 
 //--//
 
