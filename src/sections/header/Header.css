@@ -30,7 +30,6 @@
 .headerParagraph__con {
   display: flex;
   justify-content: space-around;
-  border: 2px solid red;
 }
 .headerParagraph__Intro {
   padding: 20px;
