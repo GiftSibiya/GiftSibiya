@@ -2,6 +2,9 @@
 import React from "react";
 //--//
 /// Import Files ///
+
+import "./Middle.css";
+
 import star from "../../assets/icons/star.png";
 import illustrator from "../../assets/skillIcons/illustrator.png";
 import blender from "../../assets/skillIcons/blender.png";
@@ -16,35 +19,37 @@ import warning from "../../assets/skillIcons/warning.png";
 //--//
 function Middle() {
   return (
-    <section className="flex flex-col md:flex-row my-[20px] w-[120vw] md:w-[100vw] h-[390vh] md:h-[250vh] bg-[#67bcaa]">
+    <section className="cv--container">
       {/* Experience */}
 
-      <div className=" flex flex-col md:flex-row border-2 border-black relative top-[120px] left-[10px] w-[95vw] md:w-[52vw] h-[1420px] md:h-fit pb-5 rounded-[20px] bg-[#fff8dd]  ">
+      <div className="cv--exp">
         {/* Experience Container */}
         <div>
-          <div className="">
-            <h3 className="font-bold text-[2rem] text-center mb-3">
-              EXPERIENCE
-            </h3>
-            <div className="flex justify-between h-fit ">
+          <div className="exp__container">
+            <h3 className="exp__heading">EXPERIENCES</h3>
+            <div className="exp__details ">
               {/* Year and Icon */}
 
-              <div className="flex flex-col items-center justify-around ml-2 h-full w-[20vw] md:w-[10vw]">
-                <img src={warning} alt="null" className="size-[80px]"></img>
-                <p className="text-[20px] font-bold">2021-2023</p>
+              <div className="exp__details--img">
+                <img
+                  src={warning}
+                  alt="null"
+                  className="exp--details--pic"
+                ></img>
+                <p className="exp__details--date">2021-2023</p>
               </div>
               {/* Company And Description */}
-              <div className="flex flex-col h-full w-[60vw] md:w-[40vw] ">
-                <div className="text-center text-2xl font-bold">
+              <div className="exp__company">
+                <div className="exp__company--position">
                   {" "}
                   Senior BMS & IT Technician
                 </div>
-                <span className="text-center font-bold">
+                <span className="exp__company--name">
                   {" "}
                   Micropower Modulek (PTY)LTD
                 </span>
-                <div className="text-md">
-                  <ul className="list-disc pl-4">
+                <div className="exp__company--details">
+                  <ul className="exp__company--details--list">
                     <li>
                       Building high current mining feeder controller units.
                     </li>
@@ -78,26 +83,26 @@ function Middle() {
           </div>
 
           {/* Coding */}
-          <div className="">
-            <div className="flex justify-around w-80vw mt-[20px]">
+          <div className="exp__container">
+            <div className="exp__details">
               {/* Year and Icon */}
 
-              <div className="flex flex-col items-center justify-around ml-2 h-full w-[20vw] md:w-[10vw]">
-                <img src={coder} alt="null" className="size-[80px]"></img>
-                <p className="text-[20px] font-bold">2023-PRESENT</p>
+              <div className="exp__details--img">
+                <img src={coder} alt="null" className="exp--details--pic"></img>
+                <p className="exp__details--date">2023-PRESENT</p>
               </div>
               {/* Company And Description */}
-              <div className="flex flex-col h-full w-[60vw] md:w-[40vw]">
-                <div className="text-center text-2xl font-bold">
+              <div className="exp__company">
+                <div className="exp__company--position">
                   {" "}
                   Full Stack Software Developer
                 </div>
-                <span className="text-center font-bold">
+                <span className="exp__company--name">
                   {" "}
                   Freelance for Rand Water and Others
                 </span>
-                <div className="text-md ">
-                  <ul className="list-disc pl-4">
+                <div className="exp__company--details">
+                  <ul className="exp__company--details--list">
                     <li>
                       Building and designing mobile and web application UI & UX.
                     </li>

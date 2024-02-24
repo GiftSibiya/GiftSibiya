@@ -1,11 +1,17 @@
+// Depandancies Imports //
 import React from "react";
-import coder from "../assets/skillIcons/programmer.png";
-import warning from "../assets/skillIcons/warning.png";
+//*//
+
+// File Imports //
+import "./Exp.css";
+//*//
+
+import warning from "../assets/skillIcons/warnin.png";
 
 function Exp() {
   return (
-    <div className="relative top-[120px] left-[10px] w-[45vw] h-[500px] rounded-[20px] border-black border-2  bg-[#fff8dd] ">
-      <h3 className="font-bold text-[2rem] text-center mb-3">EXPERIENCE</h3>
+    <div className="exp--container ">
+      <h3 className="font-bold text-[2rem] text-center mb-3">EXPERIENCES</h3>
       <div className="flex justify-around h-fit ">
         {/* Year and Icon */}
 

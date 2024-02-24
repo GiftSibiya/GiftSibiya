@@ -1,0 +1,72 @@
+.cv--container {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  background: #67bcaa;
+  margin: 0px 0px;
+  padding-top: 50px;
+}
+.cv--exp {
+  position: relative;
+  left: 10px;
+  top: 120px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  height: 700px;
+  width: 40vw;
+  border-radius: 20px;
+  background-color: #fff8dd;
+}
+.exp__container {
+  border: 2px solid red;
+}
+.exp__heading {
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.exp__details {
+  display: flex;
+  justify-content: space-between;
+  height: fit-content;
+}
+.exp__details--img {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: fit-content;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.exp--details--pic {
+  size: 80px;
+}
+.exp__details--date {
+  font-size: 20px;
+  font-weight: bold;
+}
+.exp__company {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  width: 60vw;
+}
+.exp__company--position {
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+}
+.exp__company--name {
+  text-align: center;
+  font-weight: bold;
+}
+.exp__company--details {
+}
+.exp__company--details--list {
+  list-style: circle;
+  padding-left: 20px;
+}
