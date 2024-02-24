@@ -179,28 +179,25 @@ function Middle() {
             {/* Software Skills */}
             <div className="skills--software">
               <p className="skills--software__p ">Software Skils</p>
-              <div className="flex flex-col  w-[30vw] md:w-[20vw] justify-center">
-                <div className="flex items-center justify-between ">
-                  <img className="h-[54px] " alt="" src={photoshop}></img>
-                  <img className="h-[40px] " alt="" src={illustrator}></img>
-                  <img className="h-[54px] " alt="" src={xd}></img>
-                  <img className="h-[50px] " alt="" src={blender}></img>
-                </div>
 
-                {/* Make Dissapearing Description Titles */}
-                <div className="flex items-center justify-between mt-2">
-                  <img className="h-[50px] " alt="" src={vs}></img>
-                  <img className="h-[50px] " alt="" src={vscode}></img>
-                  <img className="h-[50px] " alt="" src={unity}></img>
-                  <img className="h-[50px] " alt="" src={linux}></img>
-                </div>
+              {/* SKILLS GRID */}
+
+              <div className="skills--software__icons ">
+                <img className="h-[54px] " alt="" src={photoshop}></img>
+                <img className="h-[40px] " alt="" src={illustrator}></img>
+                <img className="h-[54px] " alt="" src={xd}></img>
+                <img className="h-[50px] " alt="" src={blender}></img>
+                <img className="h-[50px] " alt="" src={vs}></img>
+                <img className="h-[50px] " alt="" src={vscode}></img>
+                <img className="h-[50px] " alt="" src={unity}></img>
+                <img className="h-[50px] " alt="" src={linux}></img>
               </div>
+
+              {/* -- */}
             </div>
-            <div className="flex flex-col md:w-[15vw] items-center text-center rounded-2xl">
-              <p className="text-2xl  font-bold mb-4 text-center w-[40vw] md:w-[20vw]">
-                Technical Skils
-              </p>
-              <ul className="flex flex-col w-[30vw] justify-center">
+            <div className="techSkill--con">
+              <p className="techSkill--p">Technical Skils</p>
+              <ul className="techSkill--list">
                 <li>Hand Tool Skills</li>
                 <li>Electrical Fault Finding</li>
                 <li> </li>
